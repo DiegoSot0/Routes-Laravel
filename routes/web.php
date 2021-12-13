@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::view('vista', 'welcome'); // es usado para paginas estaticas
+
+Route::get('prueba', function () {
+    return 'hola';
+});
